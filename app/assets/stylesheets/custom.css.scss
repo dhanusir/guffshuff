@@ -1,1 +1,12 @@
 @import 'bootstrap/dist/css/bootstrap';
+
+.banner {
+  .logo {
+    height: 80px;
+    width: 100px;
+  }
+}
+
+.chat-left-panel, .chat-right-panel {
+  height: 30rem;
+}
