@@ -10,3 +10,8 @@
 .chat-left-panel, .chat-right-panel {
   height: 30rem;
 }
+.chat-left-panel button {
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  border-radius: 0 0.25rem 0.25rem 0;
+}
