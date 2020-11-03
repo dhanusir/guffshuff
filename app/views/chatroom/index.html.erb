@@ -12,11 +12,11 @@
       <div class="card-header chat-header">
         Chatting Box
       </div>
-      <div class="card-body chat-body">
+      <div class="card-body" id="chat-body">
         <%= render @messages %>
       </div>
       <div class="card-footer chat-footer px-3">
-        <%= form_with model: @message, url: message_path, method: :post, local:true do |f| %>
+        <%= form_with model: @message, url: message_path do |f| %>
           <div class="input-group">
             <%= f.text_field :body, class: 'form-control', placehoder: 'Type your message here ...' %>
             <div class="input-group-append">
