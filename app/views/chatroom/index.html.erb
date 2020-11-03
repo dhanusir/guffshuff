@@ -13,11 +13,7 @@
         Chatting Box
       </div>
       <div class="card-body chat-body">
-        <% @messages.each do |msg| %>
-          <div class="msg-content">
-            <span class="chat-by font-italic"><%= msg.user.username %> : </span><%= msg.body %>
-          </div>
-        <% end %>
+        <%= render @messages %>
       </div>
       <div class="card-footer chat-footer px-3">
         <div class="input-group">
