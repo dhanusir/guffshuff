@@ -5,6 +5,13 @@
     height: 80px;
     width: 100px;
   }
+  .card {
+    border: 0;
+  }
+  .card-header, .card-footer {
+    background: transparent;
+    border: 0;
+  }
 }
 
 .chat-left-panel, .chat-right-panel {
